@@ -1,0 +1,42 @@
+ // Pemrograman Khairunnisa
+#include <iostream>
+using namespace std;
+int p;
+int q;
+
+int main() {
+    cout<< "angka pertama: ";
+    cin>> p;
+    cout<< "angka kedua: ";
+    cin>> q;
+    
+    //hasil
+    
+    //penjumlahan
+    cout<< "hasil penjumlahan: ";
+    cout<< p + q;
+    cout<< endl;
+    
+    //pengurangan
+    cout<< "hasil pengurangan: ";
+    cout<< p - q;
+    cout<< endl;
+    
+    //perkalian
+    cout<< "hasil perkalian: ";
+    cout<< p*q;
+    cout<< endl;
+    
+    //pembagian
+    cout<< "hasil pembagian: ";
+    cout<< p/q;
+    cout<< endl;
+    
+    //rumus keliling persegi
+    int keliling_p = 4*p;
+    cout<< "keliling persegi: ";
+    cout<< keliling_p;
+    
+   
+    return 0;
+}
